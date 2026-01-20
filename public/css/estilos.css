@@ -1,0 +1,54 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(120deg, #84fab0, #8fd3f4);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 8px 12px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-add { background: #2196F3; }
+.btn-edit { background: #FFC107; }
+.btn-delete { background: #F44336; }
+.btn-save { background: #4CAF50; }
